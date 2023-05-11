@@ -9,7 +9,7 @@ Câmbio Fácil é um projeto que permite o usuário converter entre moedas. O pr
 ## Como baixar e testar
 * Clone o repositório
     ```
-    git clone
+    git clone https://github.com/amonsantos73/cambio-facil.git
     ```
 * Gere e ative a sua chave da API
 
