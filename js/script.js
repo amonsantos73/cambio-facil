@@ -55,7 +55,7 @@ function get_conversion_currency() {
         amount_value = 1;
     }
     conversion_text.innerText = "Obtendo a taxa de câmbio...";
-    let url = `https://v6.exchangerate-api.com/v6/SUA_CHAVE_API/latest/${from_currency.value}`;
+    let url = `https://v6.exchangerate-api.com/v6/SUA_CHAVE_DA_API/latest/${from_currency.value}`;
     fetch(url).then(response => response.json()).then(result =>{
         let conversion_currency = result.conversion_rates[to_currency.value];
         let total_currency = (amount_value * conversion_currency).toFixed(2); 
